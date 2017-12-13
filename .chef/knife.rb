@@ -7,3 +7,4 @@ node_name                "itopalov"
 client_key               "#{current_dir}/itopalov.pem"
 chef_server_url          "https://vanko0002.mylabserver.com/organizations/ll-chef"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]="/usr/bin/vi"
